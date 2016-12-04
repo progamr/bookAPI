@@ -1,0 +1,15 @@
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "Nodejs RESTful web service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "RESTful"
+  ],
+  "author": "Amr Mohamed <prog.amr2014@gmail.com>",
+  "license": "ISC"
+}

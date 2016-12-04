@@ -1,0 +1,27 @@
+## instructions for importing data into a mongodb database from a json file
+## requirements/installations: (Mongodb)
+1- the valid format of the json file should be like this
+(this is a books collection as an example)
+############################################
+{
+  "title":"War and Peace",
+  "genre":"Historical Fiction",
+  "author":"Lev Nikolayevich Tolstoy",
+  "read":false
+}
+{
+  "title":"Les Misérables",
+  "genre":"Historical Fiction",
+  "author":"Victor Hugo",
+  "read":false
+}
+############################################
+2- type the following command in terminal
+and replace the DB name and the file name and location
+with your names
+mongoimport --db bookAPI --collection books --drop --file /var/www/levelupWorkspace/nodejs/BookAPI/books.json
+## references
+1- json valid format (second answer of user Alex Glukhovtsev)
+https://goo.gl/mg2UCd
+2- import json collection to mongodb database command
+https://goo.gl/xSIJV2
